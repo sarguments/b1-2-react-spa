@@ -1,0 +1,9 @@
+# 로컬 환경과 비밀정보
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# React 빌드
+node_modules/
+dist/

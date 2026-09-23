@@ -5,5 +5,27 @@
 ## 범위
 React SPA·라우팅 5개+·핵심 데이터 CRUD·폼 검증·로딩/에러/빈 상태·Vercel 등 배포
 
-## 상태
-- 2026-09-22 최소 골격(README)만 커밋. 구현은 미션 착수 후 작성자 본인이 진행합니다.
+## 개발 환경
+React 18 이상을 사용합니다. Node.js 버전과 실행 명령은 개발 환경 초기화 후 기록합니다.
+Supabase 또는 Firebase 연동을 미션 진행 중 선택하며, 환경변수 값은 저장소에 올리지 않습니다.
+
+### 새 환경에서 준비
+
+Git을 설치한 뒤 새 기기에서 저장소를 받습니다.
+
+```bash
+git clone https://github.com/sarguments/b1-2-react-spa.git
+cd b1-2-react-spa
+```
+
+Node.js와 npm을 설치하고 아래 명령으로 확인합니다.
+
+```bash
+node --version
+npm --version
+```
+
+`package.json`과 `package-lock.json`은 React 프로젝트를 시작할 때 만듭니다. 두 파일을 저장소에 반영한 뒤 새 기기에서는 `npm ci`로 같은 의존성을 받고 `npm run`으로 정의된 실행 명령을 확인합니다. 현재 저장소에는 앱이 없어 두 명령을 실행할 단계가 아닙니다.
+
+## 준비 상태
+Node.js 24.13.0과 npm 11.6.2를 확인했습니다. React 초기화와 기능 구현은 아직 진행하지 않았습니다.
